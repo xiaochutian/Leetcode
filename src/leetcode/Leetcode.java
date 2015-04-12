@@ -6,6 +6,7 @@
 package leetcode;
 
 import java.util.Arrays;
+import s160.intersectionsoftwolinkedlist.ListNode;
 
 /**
  *
@@ -18,8 +19,22 @@ public class Leetcode {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        s188.besttimetobuyandsellstock4.Solution s188 = new s188.besttimetobuyandsellstock4.Solution();
-        System.out.println(s188.maxProfit(1, new int[]{1,2,4,2,5,7,2,4,9,0}));
+        
+        s27.removeelements.Solution s27 = new s27.removeelements.Solution();
+        System.out.println(s27.removeElement(new int[]{4,5}, 4));
+        
+//        s160.intersectionsoftwolinkedlist.Solution solution = new s160.intersectionsoftwolinkedlist.Solution();
+//        ListNode headA = new ListNode(new int[]{1,3,5,7,9,11,13,15,17,19,21});
+//        ListNode headB = new ListNode(2);
+//        System.out.println(solution.getIntersectionNode(headA, headB));
+//        System.out.println("fuck");
+        
+        
+//        s187.repeateddnasequence.Solution s187 = new s187.repeateddnasequence.Solution();
+//        System.out.println(s187.findRepeatedDnaSequences("AAAAACCCCC"));
+        
+//        s188.besttimetobuyandsellstock4.Solution s188 = new s188.besttimetobuyandsellstock4.Solution();
+//        System.out.println(s188.maxProfit(1, new int[]{1,2,4,2,5,7,2,4,9,0}));
 //        s191.numberof1bits.Solution s191 = new s191.numberof1bits.Solution();
 //        System.out.println(s191.hammingWeight(11));
 //        s168.Solution s168 = new s168.Solution();

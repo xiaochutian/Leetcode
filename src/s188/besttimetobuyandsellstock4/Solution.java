@@ -29,10 +29,10 @@ public class Solution {
                 }
             }
         }
-        
+        return 0;
     }
     public int getMax(int start,int end,int[] prices){
-        
+        return 0;
     }
 //    public int maxProfit(int k, int[] prices) {
 //        if(prices.length<2)
