@@ -5,8 +5,8 @@
  */
 package leetcode;
 
-import java.util.Arrays;
-import s160.intersectionsoftwolinkedlist.ListNode;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  *
@@ -20,8 +20,13 @@ public class Leetcode {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        s27.removeelements.Solution s27 = new s27.removeelements.Solution();
-        System.out.println(s27.removeElement(new int[]{4,5}, 4));
+//        s135.candy.Solution s135 = new s135.candy.Solution();
+//        s135.candy(new int[]{1,3,9,5,4,6,3,3,8});
+        List<Integer> list = new ArrayList<Integer>();
+        list.add(1);
+        
+//        s27.removeelements.Solution s27 = new s27.removeelements.Solution();
+//        System.out.println(s27.removeElement(new int[]{4,5}, 4));
         
 //        s160.intersectionsoftwolinkedlist.Solution solution = new s160.intersectionsoftwolinkedlist.Solution();
 //        ListNode headA = new ListNode(new int[]{1,3,5,7,9,11,13,15,17,19,21});
