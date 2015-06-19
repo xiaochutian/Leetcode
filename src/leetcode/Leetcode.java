@@ -22,22 +22,15 @@ public class Leetcode {
         
 //        s135.candy.Solution s135 = new s135.candy.Solution();
 //        s135.candy(new int[]{1,3,9,5,4,6,3,3,8});
-        List<Integer> list = new ArrayList<Integer>();
-        list.add(1);
-        
 //        s27.removeelements.Solution s27 = new s27.removeelements.Solution();
 //        System.out.println(s27.removeElement(new int[]{4,5}, 4));
-        
 //        s160.intersectionsoftwolinkedlist.Solution solution = new s160.intersectionsoftwolinkedlist.Solution();
 //        ListNode headA = new ListNode(new int[]{1,3,5,7,9,11,13,15,17,19,21});
 //        ListNode headB = new ListNode(2);
 //        System.out.println(solution.getIntersectionNode(headA, headB));
 //        System.out.println("fuck");
-        
-        
 //        s187.repeateddnasequence.Solution s187 = new s187.repeateddnasequence.Solution();
 //        System.out.println(s187.findRepeatedDnaSequences("AAAAACCCCC"));
-        
 //        s188.besttimetobuyandsellstock4.Solution s188 = new s188.besttimetobuyandsellstock4.Solution();
 //        System.out.println(s188.maxProfit(1, new int[]{1,2,4,2,5,7,2,4,9,0}));
 //        s191.numberof1bits.Solution s191 = new s191.numberof1bits.Solution();
@@ -66,7 +59,6 @@ public class Leetcode {
 //        System.out.println(s190.reverseBits(43261596));
 //        s171.excelsheetcolumnnumber.Solution s171 =  new s171.excelsheetcolumnnumber.Solution();
 //        System.out.println(s171.titleToNumber("AA"));
-       
 //        s36.validsudoku.Solution s36 = new s36.validsudoku.Solution();
 //        System.out.println(s36.isValidSudoku(new char[][]{{'.', '8', '7', '6', '5', '4', '3', '2', '1'},
 //        {'2', '.', '.', '.', '.', '.', '.', '.', '.'},
@@ -78,15 +70,11 @@ public class Leetcode {
 //        {'8', '.', '.', '.', '.', '.', '.', '.', '.'},
 //        {'9', '.', '.', '.', '.', '.', '.', '.', '.'}}
 //        ));
-        
 //        s36.validsudoku.Solution s36 = new s36.validsudoku.Solution();
 //        System.out.println(s36.isValidSudoku(new char[][]
 //        {"..5.....6".toCharArray(),"....14...".toCharArray(),".........".toCharArray()
 //                ,".....92..".toCharArray(),"5....2...".toCharArray(),".......3.".toCharArray(),
 //                "...54....".toCharArray(),"3.....42.".toCharArray(),"...27.6..".toCharArray()}));
-        
-        
-        
 //        for(int i=1;i<=9;i++){
 //            for(int j=1;j<=9;j++)
 //                System.out.print(" "+((i-1)/3*3+(j-1)/3+1));
