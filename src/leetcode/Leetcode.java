@@ -5,8 +5,9 @@
  */
 package leetcode;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.HashMap;
+import java.util.Map;
+import s21.merge.two.sorted.list.ListNode;
 
 /**
  *
@@ -19,7 +20,30 @@ public class Leetcode {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+//        Map<Integer,Integer> map = new HashMap<>();
+//        map.put(1, 2);
+//        System.out.println(map.get(1));
+//        map.put(1, 3);
+//        System.out.println(map.get(1));
         
+        
+        StringBuilder sb = new StringBuilder();
+//        sb.a
+        char c = 'a'-50;
+        char b = 47;
+        System.out.println(new Integer('1'));
+        
+        
+        ListNode l1 = new ListNode(new int[]{1,3,7,10});
+        ListNode l2 = new ListNode(new int[]{2,3,5,11,12});
+        s21.merge.two.sorted.list.Solution s21 = new s21.merge.two.sorted.list.Solution();
+        ListNode result = s21.mergeTwoLists(null, null);
+        System.out.println(result);
+        
+//        s242.valid.anagram.Solution s242 = new s242.valid.anagram.Solution();
+//        System.out.println(s242.isAnagram("rat", "car"));
+        
+//        HashMap
 //        s135.candy.Solution s135 = new s135.candy.Solution();
 //        s135.candy(new int[]{1,3,9,5,4,6,3,3,8});
 //        s27.removeelements.Solution s27 = new s27.removeelements.Solution();
